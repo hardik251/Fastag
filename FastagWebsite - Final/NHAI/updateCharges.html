@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toll Details</title>
+    <link rel="stylesheet" href="updateCharges.css">
+</head>
+<body>
+    <h1>Update Toll Details <button type="click" id="logout">Logout</button> </h1>
+    <form id="tollForm">
+    <div id="stateTollContainer">
+        <label for="tollId">Toll ID:</label>
+        <input type="int" name="tollId" id="tollId" readonly>
+        <label for="state">State:</label>
+        <input type="text" name="state" id="state">
+        <label for="tollPlazaName">Toll Plaza Name:</label>
+        <input type="text" name="tollPlazaName" id="tollPlazaName">
+    </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Single Charges</th>
+                    <th>Round Charges</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label>Car/Jeep/Van</label></td>
+                    <td><input type="number" name="single1" ></td>
+                    <td><input type="number" name="round1"></td>
+                </tr>
+                <tr>
+                    <td><label>LCV</label></td>
+                    <td><input type="number" name="single2" ></td>
+                    <td><input type="number" name="round2" ></td>
+                </tr>
+                <tr>
+                    <td><label>Bus/Truck</label></td>
+                    <td><input type="number" name="single3" ></td>
+                    <td><input type="number" name="round3" ></td>
+                </tr>
+                <tr>
+                    <td><label>Upto 3 Axle</label></td>
+                    <td><input type="number" name="single4" ></td>
+                    <td><input type="number" name="round4" ></td>
+                </tr>
+                <tr>
+                    <td><label>4 to 6 Axle</label></td>
+                    <td><input type="number" name="single5" ></td>
+                    <td><input type="number" name="round5" ></td>
+                </tr>
+                <tr>
+                    <td><label>HCM/EME</label></td>
+                    <td><input type="number" name="single6" ></td>
+                    <td><input type="number" name="round6" ></td>
+                </tr>
+                <tr>
+                    <td><label>7 or more Axle</label></td>
+                    <td><input type="number" name="single7" ></td>
+                    <td><input type="number" name="round7" ></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <input type="submit" value="Submit" id="submit" name="Submit">
+    </form>
+    <script src="updateCharges.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastag - Transaction History</title>
+    <link rel="stylesheet" type="text/css" href="transactionN.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <h1>Transaction History <button type="click" id="download">Download PDF</button> <button type="click" id="downloadEXCEL">Download Excel</button> <button type="click" id="downloadCSV">Download CSV</button> <button type="click" id="logout">Logout</button> </h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Transaction ID</th>
+                <th>Date & Time</th>
+                <th>Toll ID</th>
+                <th>Toll Plaza</th>
+                <th>State</th>
+                <th>Vehicle Number</th>
+                <th>Vehicle Type</th>
+                <th>Closing Vehicle Balance</th>
+                <th>Charges</th>
+                <th>Journey Type</th>
+            </tr>
+        </thead>
+        <tbody id="transactionData">
+            <!-- API response data will be inserted here -->
+        </tbody>
+    </table>
+    
+    <script src="transactionN.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

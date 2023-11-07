@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logged In</title>
+    <link rel="stylesheet" type="text/css" href="loggedN.css">
+</head>
+<body>
+    <h1>Welcome     <button id="addToll" type="click">Add a new toll</button>
+        <button id="viewToll" type="click">View Tolls</button>
+        <button type="click" id="view">Transactions History</button>
+        <button type="click" id="logout">Logout</button> </h1>
+    <form id="tollForm">
+        <label for="tollId">Toll ID:</label>
+        <input type="number" min="1" id="tollId" placeholder="Enter toll ID" name="tollId">
+        <button id="charges" type="button">Toll Plaza Details</button>
+        <button id="toll" type="button">Toll Plaza History</button>
+    </form>
+    <form id="vehicleForm">
+        <label for="vehicleNumber">Vehicle Number:</label>
+        <input type="text" id="vehicleNumber" placeholder="Enter vehicle number" name="vehicleNumber">
+        <button id="vehicle" type="submit">Vehicle History</button>
+    </form>
+
+    <div></div>
+    <div id="chart1-container">
+        <!-- The chart will be inserted here -->
+    </div>
+    <div id="chart2-container">
+        <!-- The chart will be inserted here -->
+    </div>
+    <script src="loggedN.js"></script>
+</body>
+</html>
+
+

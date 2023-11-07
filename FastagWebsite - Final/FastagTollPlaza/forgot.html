@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastag Toll Plaza - Forgot Password</title>
+    <link rel="stylesheet" href="forgot.css">
+</head>
+<body>
+    <h1>Fastag Toll Plaza - Forgot Password </h1>
+    <form id="forgotPasswordForm">
+        <div>
+            <label for="tollId">Toll ID:</label>
+            <input type="number" id="tollId" name="tollId" placeholder="Enter tollID" required>
+        </div>
+        <div>
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email ID" required>
+        </div>
+        <div class="captcha-container">
+            <label for="captcha">CAPTCHA:</label>
+            <button type="button" id="refresh">Refresh</button>
+            <img id="captchaImage" alt="CAPTCHA Image">
+            <input type="text" id="captchaInput" name="captchaInput" placeholder="Enter CAPTCHA" required>
+            <input type="hidden" id="captchaValue" name="captchaValue">
+        </div> 
+        <button type="submit">Request OTP</button>
+        <div id="forgotMessageContainer"></div>
+    </form>
+
+    <script src="forgot.js"></script>
+</body>
+</html>

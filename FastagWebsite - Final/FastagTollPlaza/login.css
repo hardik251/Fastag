@@ -1,0 +1,140 @@
+
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.password-container label, .password-container a.forgot-password {
+    display: inline;
+}
+
+.captcha-container label, .captcha-container refresh {
+    display: inline;
+}
+
+
+a.forgot-password {
+    font-size: 14px; 
+    margin-left: 170px; 
+    color: blue;
+}
+
+input[type="number"],
+input[type="password"],
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]:read-only {
+    background-color: #f0f0f0;
+}
+
+#refresh {
+    background-color: #333; 
+    color: #fff; 
+    padding: 5px 10px;
+    border: none;
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+    margin-left: 200px;
+    border-radius: 4px; 
+    cursor: pointer;
+    font-size: 16px; 
+    text-align: center;
+    text-decoration: none;
+}
+
+#refresh:hover {
+    background-color: #0056b3; 
+}
+
+
+#login {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none;
+    /* margin-top: 20px; */
+    margin-left: 150px;
+    border-radius: 4px; 
+    cursor: pointer;
+    font-size: 16px; 
+    text-align: center;
+    text-decoration: none;
+}
+
+#login:hover {
+    background-color: #0056b3; 
+}
+
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #555;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    form {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    input[type="number"],
+    input[type="password"],
+    input[type="text"] {
+        width: 100%;
+    }
+
+    a.forgot-password {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #refresh,
+    #login {
+        margin-left: 0;
+        width: 100%;
+    }
+}

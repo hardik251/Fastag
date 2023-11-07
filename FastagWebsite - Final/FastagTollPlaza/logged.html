@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logged In</title>
+    <link rel="stylesheet" type="text/css" href="logged.css">
+</head>
+<body>
+    <h1>Welcome
+        <button id="transactionHistoryButton">Transaction History</button>
+        <button id="startTollButton">Start Toll</button>
+        <button type="submit" id="logout">Logout</button> </h1>
+    <div id="responseContainer">
+        <!-- Response data will be displayed here -->
+    </div>
+    <!-- <button type="click" id="view">View Pdf</button> -->
+    <button type="click" id="download">Download Pdf</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Single</th>
+                <th>Round</th>
+            </tr>
+        </thead>
+        <tbody id="chargesData">
+            <!-- API response data will be inserted here -->
+        </tbody>
+    </table>
+    
+    <script src="logged.js"></script> 
+</body>
+</html>
+

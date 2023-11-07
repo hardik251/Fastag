@@ -1,0 +1,138 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333; /* Text color */
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+
+}
+
+
+input[type="number"] {
+    width: 10%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20%;
+}
+
+input[type="text"] {
+    width: 10%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 30%;
+}
+
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    /* margin-top: 20px; */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+#addToll{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 1%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+#addToll:hover {
+    background-color: #0056b3; 
+}
+
+#viewToll{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 1%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+#viewToll:hover {
+    background-color: #0056b3; 
+}
+
+#view{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 1%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#view:hover {
+    background-color: #0056b3; 
+}
+
+#chart1-container,
+#chart2-container {
+    display: inline-block;
+}
+
+#tollForm,
+#vehicleForm {
+    display: inline-block;
+    margin-right: 8%;
+}
+
+#logout {
+    background-color: white; 
+    color: black; 
+    padding: 10px 20px; 
+    border: none;
+    
+    margin-left: 5%;
+    border-radius: 4px; 
+    cursor: pointer;
+    font-size: 16px; 
+    text-align: center;
+    text-decoration: none;
+}
+
+#logout:hover {
+    background-color: red; 
+}

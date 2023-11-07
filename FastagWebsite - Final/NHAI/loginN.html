@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NHAI - Login</title>
+    <link rel="stylesheet" href="loginN.css">
+</head>
+<body>
+    <h1>NHAI - Login</h1>
+    <form id="loginForm">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter Username" required>
+        </div>
+        <div class="password-container">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>
+        </div>
+        <div class="captcha-container">
+            <label for="captcha">CAPTCHA:</label>
+            <button type="button" id="refresh">Refresh</button>
+            <img id="captchaImage" alt="CAPTCHA Image">
+            <input type="text" id="captchaInput" name="captchaInput" placeholder="Enter CAPTCHA" required>
+            <input type="hidden" id="captchaValue" name="captchaValue">
+        </div>  
+        <button type="submit" id="login">Login</button>
+    </form>
+    <script src="loginN.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastag Vehicle Owner - Login</title>
+    <link rel="stylesheet" href="loginV.css">
+</head>
+<body>
+    <h1>Fastag Vehicle Owner - Login </h1>
+    <form id="loginForm">
+        <div>
+            <label for="vehicleNumber">Vehicle Number:</label>
+            <input type="text" id="vehicleNumber" name="vehicleNumber" required>
+        </div>
+        <div class="password-container">
+            <label for="password">Password: <a href="forgotV.html" class="forgot-password">Forgot Password</a> </label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="captcha-container">
+            <label for="captcha">CAPTCHA:</label>
+            <button type="button" id="refresh">Refresh</button>
+            <img id="captchaImage" alt="CAPTCHA Image">
+            <input type="text" id="captchaInput" name="captchaInput" placeholder="Enter CAPTCHA" required>
+            <input type="hidden" id="captchaValue" name="captchaValue">
+        </div>  
+        <button type="submit" id="login">Login</button>
+    </form>
+    <script src="loginV.js"></script>
+</body>
+</html>

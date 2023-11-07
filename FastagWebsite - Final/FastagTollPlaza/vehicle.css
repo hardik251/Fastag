@@ -1,0 +1,134 @@
+
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 170px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+  }
+  
+
+  #lightStatus {
+    background-color: red;
+  }
+  
+ 
+  #lightStatus.green {
+    background-color: green;
+  }
+  
+  #logout {
+    background-color: white; 
+    color: black; 
+    padding: 10px 20px; 
+    border: none;
+    
+    margin-left: 5%;
+    border-radius: 4px; 
+    cursor: pointer;
+    font-size: 16px; 
+    text-align: center;
+    text-decoration: none;
+}
+
+#logout:hover {
+    background-color: red; 
+}
+
+.alert-red {
+    color: red;
+    font-weight: bold;
+  }
+
+.alert-orange{
+    color: rgb(255, 106, 0);
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+    form {
+        max-width: 90%; 
+        padding: 10px; 
+    }
+
+    label {
+        margin-left: 0; 
+    }
+
+    input[type="text"] {
+        margin-bottom: 10px; 
+    }
+
+    button[type="submit"] {
+        margin-left: 0;
+    }
+
+    .circle {
+        margin-left: 0;
+    }
+
+    #logout {
+        margin-left: 0; 
+        width: 100%; 
+    }
+}

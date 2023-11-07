@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastag - Tolls</title>
+    <link rel="stylesheet" type="text/css" href="tollsList.css"> 
+</head>
+<body>
+    <h1>Tolls <button type="click" id="download">Download PDF</button> <button type="click" id="downloadEXCEL">Download Excel</button> <button type="click" id="downloadCSV">Download CSV</button> <button type="click" id="chargesEXCEL">Download Charges Excel</button> <button type="click" id="chargesCSV">Download Charges CSV</button> <button type="click" id="logout">Logout</button> </h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Toll ID</th>
+                <th>State</th>
+                <th>Toll Plaza</th>
+                <th>Email ID</th>
+            </tr>
+        </thead>
+        <tbody id="tollData">
+            <!-- API response data will be inserted here -->
+        </tbody>
+    </table>
+    
+    <script src="tollsList.js"></script> 
+</body>
+</html>
+

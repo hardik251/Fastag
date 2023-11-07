@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastag Vehicle Owner - Forgot Password</title>
+    <link rel="stylesheet" href="forgotV.css">
+</head>
+<body>
+    <h1>Fastag Vehicle Owner - Forgot Password </h1>
+    <form id="forgotPasswordForm">
+        <div>
+            <label for="vehicleNumber">Vehicle Number:</label>
+            <input type="text" id="vehicleNumber" name="vehicleNumber" required>
+        </div>
+        <div>
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="captcha-container">
+            <label for="captcha">CAPTCHA:</label>
+            <button type="button" id="refresh">Refresh</button>
+            <img id="captchaImage" alt="CAPTCHA Image">
+            <input type="text" id="captchaInput" name="captchaInput" placeholder="Enter CAPTCHA" required>
+            <input type="hidden" id="captchaValue" name="captchaValue">
+        </div> 
+        <button type="submit">Request OTP</button>
+        <div id="forgotMessageContainer"></div>
+    </form>
+
+    <script src="forgotV.js"></script>
+</body>
+</html>

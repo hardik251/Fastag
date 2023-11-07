@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastag Toll Plaza - Vehicle Entry</title>
+        <link rel="stylesheet" href="vehicle.css">
+</head>
+<body>
+    <h1>Fastag Toll Plaza - Vehicle Entry <button type="click" id="logout">Logout</button> </h1>
+    <form id="vehicleEntryForm">
+        <div id="loginResponseContainer"></div>
+        <div id="lightStatus" class="circle"></div>
+        <div>
+            <label for="vehicleNumber">Vehicle Number:</label>
+            <input type="text" id="vehicleNumber" name="vehicleNumber" required>
+        </div>
+        <button type="submit">Submit</button>
+        <div id="alertContainer"></div>
+        <div id="responseContainer">
+            <!-- Response will be displayed here -->
+          </div>
+    </form>
+
+    <div id="fieldsContainer">
+        <!-- Fields will be displayed here -->
+    </div>
+    <script src="vehicle.js"></script>
+</body>
+</html>
