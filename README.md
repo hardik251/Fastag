@@ -51,6 +51,72 @@ Pandas | Matplotlib | JDBC | REST API | JWT (JSON Web Token)
 ![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/26184228-62cc-4317-9d15-614abedf4643)
 
 
+**NHAI WEB APP**
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/54b135bd-c838-427b-86c5-fa53dfc563ce)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/5dfaa5f3-62db-437c-9238-d385bf3ab5ab)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/e0eef9df-6879-4e75-9c8f-9cb5a0fd5996)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/613ad6cf-b87c-4f0b-a7d7-c6388ade2324)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/f4901493-7ace-4f43-b5f2-52081d9a70f5)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/0fd8b171-fde3-4d7d-b79b-b15959e9945a)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/532789e3-f89c-492a-a000-20fd4bc67024)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/0566c84d-0d03-42ef-9720-752132f1174c)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/c08a3eef-b402-4771-8604-8877c23e83c7)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/d7d976bd-2ed6-46db-940a-0c004dcb8309)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/edc53967-3d6e-444c-a464-7bcab608b2ab)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/b6ce430c-adc7-4af0-b0b3-4f580b20f787)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/0d820dc1-b4fb-4564-a8d4-25e475a8c8f1)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/585815bd-223f-47ab-b8bf-587bdfb15e68)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/13661612-6724-4f01-9f2a-acf08a259620)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/f2ceb1b4-49c2-47ef-a28d-dffb722961ba)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/3262019f-4cee-4d02-8dd4-2e24df9a63a7)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/b652d361-0639-4cc0-b786-3aea50784483)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/f4ccbba0-1f5c-49a1-a258-b3801260c147)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/d218cfb9-66e5-4781-acff-8b1f531a3e4e)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/7ecf4b88-eae5-47c0-9c7b-a146c09d3a16)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/33c14e48-6e37-4d29-be8c-b6c36f33a6db)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/a6e8989a-6693-491b-92ae-50f7823170c3)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/a03900ee-edbd-4055-aeea-fe5b514a5aa0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
