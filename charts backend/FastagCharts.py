@@ -23,33 +23,6 @@ app.add_middleware(
 )
 
 
-    # sql_query = """
-    # SELECT
-    #     T.Transaction_Id,
-    #     T.date_time,
-    #     T.vehicle_number,
-    #     T.toll_plaza_id,
-    #     T.Closing_Account_balance,
-    #     T.Transaction_amount,
-    #     T.Journey_Type,
-    #     VD.Category_id,
-    #     C.CategoryName,
-    #     TL.toll_plaza_name,
-    #     TL.state
-    # FROM
-    #     transactions AS T
-    # JOIN
-    #     vehicle_details AS VD ON T.vehicle_number = VD.Vehicle_Number
-    # JOIN
-    #     category AS C ON VD.Category_id = C.CategoryID
-    # JOIN
-    #     toll_list AS TL ON T.toll_plaza_id = TL.id
-    # """
-    
-# custom_colors = ['#E63946', '#F1FAEE', '#A8DADC', '#457B9D', '#1D3557']
-# custom_colors = ['#FF5733', '#FFBD33', '#FF33A8', '#33FF57', '#33B5FF', '#3333FF', '#FF33F3', '#33FFBD', '#FF5733', '#A833FF']
-
-
 @app.get("/byState", response_class=HTMLResponse)
 async def get_pie_chart():
     connection = mysql.connector.connect(
