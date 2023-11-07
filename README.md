@@ -26,6 +26,8 @@ Pandas | Matplotlib | JDBC | REST API | JWT (JSON Web Token)
 
 ▪ 2 APIs from the Python backend for pie charts using pandas and matplotlip.
 
+**FASTAG TOLL PLAZA WEB APP**
+
 ![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/976fd5e9-08f6-41b5-8063-deebf744ef56)
 
 ![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/98713220-515a-44da-857e-69c2ec806a4e)
@@ -35,6 +37,25 @@ Pandas | Matplotlib | JDBC | REST API | JWT (JSON Web Token)
 ![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/15ecf614-f681-4756-8102-705d9c1a74a8)
 
 ![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/b00651c7-2acb-47c4-9e46-4d845903c4b4)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/052dae74-f21f-4da5-8c32-979fc21606e8)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/6e03cffe-7706-469c-959d-3adf7a1cad9f)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/2dc74ec9-b4a4-49eb-b0c0-aaf7354e2184)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/a13176ee-a9ec-4c36-bb39-170c3e2e9191)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/87594d5e-487b-480a-a908-f4a1b81e8c0d)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/d7ce1c39-86f5-4819-a2e1-457946f1afbe)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/26184228-62cc-4317-9d15-614abedf4643)
+
+
+
+
+
 
 
 
