@@ -96,6 +96,23 @@ Pandas | Matplotlib | JDBC | REST API | JWT (JSON Web Token)
 
 ![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/a03900ee-edbd-4055-aeea-fe5b514a5aa0)
 
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/c0ce9820-7f3a-435b-a959-4c0b2de49510)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/4cd45cb0-569a-4979-af8f-c882e2703f45)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/a61f2687-cc46-4dc5-afb6-efeeb8cdfcef)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/a71d1219-5a42-45a0-a614-00c245aa9b6e)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/f1cf1e32-e6c9-4c5d-a9bb-73b509e01f32)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/d572098e-4abb-4c36-bbac-c94a0bcae7ca)
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/654da310-2ecf-442b-b750-53ac47183d5a)
+
+
+
+
 
 
 
