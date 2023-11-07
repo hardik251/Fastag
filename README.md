@@ -25,3 +25,6 @@ Pandas | Matplotlib | JDBC | REST API | JWT (JSON Web Token)
 ▪ It also includes 2 pie charts showing collected toll distribution by state and by vehicle type.
 
 ▪ 2 APIs from the Python backend for pie charts using pandas and matplotlip.
+
+![image](https://github.com/hardik251/Fastag-CompleteTollManagement/assets/129581888/976fd5e9-08f6-41b5-8063-deebf744ef56)
+
