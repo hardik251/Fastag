@@ -24,7 +24,7 @@ Pandas | Matplotlib | JDBC | REST API | JWT (JSON Web Token)
 
 ▪ It also includes 2 pie charts showing collected toll distribution by state and by vehicle type.
 
-▪ 2 APIs from the Python backend for pie charts using pandas and matplotlip.
+▪ 2 APIs from the Python backend for pie charts using pandas and matplotlib.
 
 **FASTAG TOLL PLAZA WEB APP**
 
